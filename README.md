@@ -35,7 +35,7 @@ login-system-flask/
 │
 ├── templates/
 │   ├── login.html
-│   ├── register.html
+│   ├── signup.html
 │   └── dashboard.html
 │
 ├── static/
