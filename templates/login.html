@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- how website will look on different devices -->
+    <title>Login</title>
+
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- linking the css file to the html file using url_for function to generate the correct URL for the static file -->
+</head>
+<body>
+
+<div class="container">
+    <form action="/login" method="POST" class="form-box">
+        <h2>Login</h2>
+
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+        <p>Don't have an account? <a href="/signup">Sign up</a></p>
+    </form>
+</div>
+
+</body>
+</html>

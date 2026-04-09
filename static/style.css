@@ -1,0 +1,93 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Container */
+.container {
+    width: 100%;
+}
+
+/* Form Box */
+.form-box {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    text-align: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.form-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Heading */
+.form-box h2 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Input focus */
+.form-box input:focus {
+    border-color: #1238e1;
+}
+
+/* Button */
+.form-box button {
+    width: 100%;
+    padding: 10px;
+
+    background: #667eea;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.form-box button:hover {
+    background: #5a67d8;
+}
+
+/* Text */
+.form-box p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Link */
+.form-box a {
+    color: #667eea;
+    text-decoration: none;
+}
